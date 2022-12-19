@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+  cout<<"Nama  : Herdin Kristianjani Zebua"<<endl;
+  cout<<"NIM   : 1227050053"<<endl;
+  cout<<"Kelas : IF-B"<<endl;
+  cout<<endl;
+  
+  int i, j, m, n, matriks[10][10], transpose[10][10];
+
+  cout << "Masukkan jumlah baris yang diinginkan: ";
+  cin >> m;
+  cout << "Masukkan jumlah kolom yang diinginkan: ";
+  cin >> n;
+
+  cout << "Masukkan nilai\n";
+  for (i = 0; i < m; i++){
+    for (j = 0; j < n; j++){
+      cin  >> matriks[i][j];
+    }
+  }
+
+  for (i = 0; i < m; i++){
+    for (j = 0; j < n; j++){
+      transpose[j][i] = matriks[i][j];
+    }
+  }
+
+  cout << "Hasil pertukaran Matriks: \n";
+  for (i = 0; i < n; i++){
+    for (j = 0; j < m; j++){
+      cout << transpose[i][j] << "\t";
+    }
+    cout << endl;
+  }
+}
