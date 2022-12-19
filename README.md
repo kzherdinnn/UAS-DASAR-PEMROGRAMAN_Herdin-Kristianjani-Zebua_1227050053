@@ -87,6 +87,7 @@ program menampilkan bilangan yang habis dibagi 3, 5, dan 7 pada data array dua d
         }
 ## Output
 ![Screenshot (50)](https://user-images.githubusercontent.com/115415378/208372360-5b7cc4f4-7118-4676-9f1f-448ce493f7d7.png)
+
 ![Screenshot (51)](https://user-images.githubusercontent.com/115415378/208372416-be0d51a3-beb0-46e8-93ad-2a35ca0a4859.png)
 
 
