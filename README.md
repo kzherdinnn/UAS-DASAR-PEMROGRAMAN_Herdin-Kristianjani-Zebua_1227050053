@@ -1,10 +1,26 @@
 # Ujian Akhir Semester 
 <br>Mata Kuliah 	: Dasar Pemrograman
-<br> Nama		      : Herdin Kristianjani Zebua
-<br>NIM		        :	1227050053
+<br> Nama		: Herdin Kristianjani Zebua
+<br>NIM		        : 1227050053
 <br>Jurusan	    	:[Teknik Informatika](http://if.uinsgd.ac.id/) [UIN Sunan Gunung Djati Bandung](https://uinsgd.ac.id/) 
 
 ## Deskripsi Umum
+Array dua dimensi adalah sebutan untuk array yang penomoran index-nya menggunakan 2 buah angka. Analogi lain adalah matriks. Matrixs Merupakan kumpulan-kumpulan bilangan yang disusun secara baris (vertikal) dan kolom (horizontal) bisa disebut juga array dua dimensi (multi-dimensional). Transpose Matriks adalah memperoleh sebuah matriks dengan cara menukar baris menjadi kolom dan kolom menjadi baris dari sebuah matriks. Dalam matematika, matriks terdiri dari kolom dan baris. Kembali, untuk menentukan nilai dari sebuah matriks, kita harus sebut secara berpasangan seperti baris 1 kolom 1, atau baris 2 kolom 3, dst. Konsep seperti inilah yang menjadi dasar dari array 2 dimensi. Untuk membuat array 2 dimensi di dalam bahasa C++, caranya tulis 2 kali tanda kurung siku setelah nama variabel,
+
+seperti contoh berikut:
+int arr[2][2];
+
+Untuk UAS kali ini membuat 2 buah program yaitu program pertama adalah membuat array 2 dimensi dengan baris , kolom dan nilai nya di input lalu ditukarkan antara kolom dan baris sedangkan program ke dua digunakan untuk mencari nilai yang dapat di bagi 3, 7, dan 5.
+
+Berikut adalah penjelasan source code program yang pertama:
+
+<br>Baris 6 : mendeklarasikan variable i, j, m, n, matriks[10][10], transpose[10][10] dimana variable i digunakan untuk perulangan baris, variable j untuk perulangan  kolom, variable m untuk jumlah baris matriks, variable n untuk jumlah kolom matriks, sedangkan variable matriks[10][10], transpose[10][10] merupakan array dua dimensi yang memiliki maksimal panjang atau ukurun array baris dan kolom sebanyak 10.
+<br>baris 8 – 11 : menginputkan nilai ke dalam variable m dan n.
+<br>baris 13 – 18 : melakukakan perulangan m (baris) dan n (kolom) untuk menginputkan elemen matriks di variable matriks
+<br>baris 20 – 24 : melakukakan perulangan m (baris) dan n (kolom) untuk mengisikan variable transpose matriks dari variable matriks
+<br>baris 26 – 32 : melakukakan perulangan n (kolom) dan m (baris) untuk menampilkan hasil operasi tranpose matriks.
+
+<br>Untuk program yang kedua itu kurang lebih sama, hanya berbeda pada perintah hasil output nya saja yaitu menampilkan bilangan yang habis dibagi 3, 5, 7 
 
 ## Source Code
 program membuat tukar kolom jadi baris dan baris jadi kolom:
